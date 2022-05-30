@@ -200,9 +200,7 @@ h3 {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
-}
-
-.formulario {
+}.formulario {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -213,7 +211,7 @@ h3 {
    color: var(--blanco);
    font-size: 2rem;
    font-family: Arial, Helvetica, sans-serif;
-   padding: 1rem;
+   padding: 1rem;git
    appearance: none;
 }
 .formulario__submit {
