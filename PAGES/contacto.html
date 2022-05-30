@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MG Party Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="../img/logo2.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="../index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace" href="medioambiente.html">Medioambiente</a>
+        <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="">
+        
+        <h2>Formulario de contacto </h2>
+            <form class="formulario" action="enviar.php" method="get" enctype="text/plain">
+                <legend> Puedes contactarme llenando los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campos\">
+                        <label for="nombre">Nombre: </label>
+                        <input class="input-text" type="text" id="nombre" placeholder="ingrese su nombre">
+                    </div>
+                    <br>
+                    <div class="campos\">
+                        <label for="email"> Email:</label>
+                        <input class="input-text" type="text" id="email">    
+                    </div>
+                    <br>
+                    <div class="campos\">
+                        <label for="telefono"> Telefono:</label>
+                        <input class="input-text" type="telefono" id="tel">
+                    </div>
+                    <br>
+                    <div class="campos\">
+                        <label for="adjunto"> Adjuntar:</label>
+                        <input class="input-text" type="file" id="Adjunto">
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Texto" ></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos-->
+                <input type="submit" value="Enviar todo">
+                <input type="reset" value="Erase">
+            </form>
+    </main>
+
+    <section class="contenedor comprar"></section>      
+
+    <footer class="footer">
+        <p class="footer__texto">MG Party Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>
