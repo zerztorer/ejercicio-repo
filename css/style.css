@@ -141,9 +141,23 @@ h3 {
     background-image: url(../img/cuello\ cerca.jpeg);
     grid-row: 8 / 9;
 }
+.grafico--zapatillas {
+    grid-row: 2 / 3;
+    background-image: url(../img/new\ balance\ azul.jpg);
+}
+.grafico--zapas {
+    background-image: url(../img/classic\ new\ balance.jpg);
+    grid-row: 8 / 9;
+}
 
 @media (min-width: 768px) {
     .grafico--node {
+        grid-row: 5 / 6;
+        grid-column: 2 / 4;
+    }
+}
+@media (min-width: 768px) {
+    .grafico--zapas {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
     }
@@ -211,7 +225,7 @@ h3 {
    color: var(--blanco);
    font-size: 2rem;
    font-family: Arial, Helvetica, sans-serif;
-   padding: 1rem;git
+   padding: 1rem;
    appearance: none;
 }
 .formulario__submit {
